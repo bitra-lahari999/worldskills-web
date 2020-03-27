@@ -1,0 +1,62 @@
+[
+    {
+        "name":"short frock",
+        "image":"images/image11.svg",
+        "price":"Rs.2500",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+    },
+    {
+        "name":"long coat",
+        "image":"images/image21.svg",
+        "price":"Rs.2000",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+        
+    },
+    {
+        "name":"frock",
+        "image":"images/image31.svg",
+        "price":"Rs.2500",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+        
+    },
+    {
+        "name":"long dress",
+        "image":"images/image12.svg",
+        "price":"Rs.2000",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+        
+    },
+    {
+        "name":"short frock",
+        "image":"images/image22.svg",
+        "price":"Rs.2500",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+    },
+    {
+        "name":"long coat",
+        "image":"images/image32.svg",
+        "price":"Rs.2000",
+        "description":"this is a very nice product available in all sizes and and full in stock."   
+        
+    },
+    {
+        "name":"frock",
+        "image":"images/image41.svg",
+        "price":"Rs.2500",
+        "description":"this is a very nice product available in all sizes and and full in stock."  
+        
+    },
+    {
+        "name":"long dress",
+        "image":"images/image42.svg",
+        "price":"Rs.2000",
+        "description":"this is a very nice product available in all sizes and and full in stock."
+        
+        
+    }
+]

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Online Shop</title>
+
+</head>
+<body>
+    <header>Online Cloth Store</header>
+    <section class="parent" id="s1">
+       
+    </section>
+    <script>
+        var s1=document.querySelector(".parent");
+        var a1=document.createElement("article");
+        a1.classList.add("child");
+       
+
+        var tx1=document.createElement("p");
+       
+        tx1.textContent="Short Frock";
+       
+        var i1=document.createElement("img");
+        i1.src="images/image11.svg";
+        a1.append(tx1);
+        a1.appendChild(i1);
+
+        var a2=document.createElement("article");
+        a2.classList.add("child");
+       
+
+        var tx2=document.createElement("p");
+       
+        tx2.textContent="Long Coat";
+       
+        var i2=document.createElement("img");
+        i2.src="images/image21.svg";
+        a2.append(tx2);
+        a2.appendChild(i2);
+
+        var a3=document.createElement("article");
+        a3.classList.add("child");
+       
+
+        var tx3=document.createElement("p");
+       
+        tx3.textContent="Short Dress";
+       
+        var i3=document.createElement("img");
+        i3.src="images/image31.svg";
+        a3.append(tx3);
+        a3.appendChild(i3);
+
+        var a4=document.createElement("article");
+        a4.classList.add("child");
+       
+
+        var tx4=document.createElement("p");
+       
+        tx4.textContent="Long Dress";
+       
+        var i4=document.createElement("img");
+        i4.src="images/image41.svg";
+        a4.append(tx4);
+        a4.appendChild(i4);
+
+        s1.appendChild(a1);
+        s1.appendChild(a2);
+        s1.appendChild(a3);
+        s1.appendChild(a4);
+    </script>  
+</body>
+</html>

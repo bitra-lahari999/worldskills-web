@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/style.css"/>
+        <title>Document</title>
+    </head>
+    <body>
+        
+       
+    </body>
+    <script>                                                                                                                    
+        var     head = document.createElement('header');
+        head.textContent="my website";
+
+        var par = document.createElement('section');
+        par.classList.add('parent');
+
+        document.body.appendChild(head);
+        document.body.appendChild(par);
+
+        fetch('data.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            appendData(data);
+        })
+        .catch(function (err) {
+            console.log('error: ' + err);
+        });
+
+        function appendData(data) {
+        var mainContainer = document.getElementById("myData");
+        for (var i = 0; i < data.length; i++) {
+            var ar = document.createElement('article');
+            ar.classList.add('child'); 
+
+            var heading=document.createElement('h2');
+            heading.textContent=data[i].name;
+
+            var i1=document.createElement("img");
+            i1.src=data[i].image;
+            var pr=document.createElement("p");
+            pr.textContent="price: "+data[i].price;
+            var des=document.createElement("div");
+            des.classList.add("desc");
+            des.textContent=data[i].description;
+
+            var but=document.createElement("button");
+            but.textContent="Buy";
+
+            ar.appendChild(heading);
+            ar.appendChild(i1);
+            ar.appendChild(pr);
+            ar.appendChild(des);
+            ar.appendChild(but);
+            par.appendChild(ar);
+
+        }
+        }
+
+       
+    
+    </script>
+
+</html>                                       

@@ -1,0 +1,114 @@
+header{
+    background-color:#45b39d;
+    text-align:center;
+    height:10%;
+    font-size:34px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2%;
+    color:#fff;
+    box-shadow :0px 5px 5px 0px #6fbeae ;
+}
+.parent {
+    display: flex;
+    margin:1%;
+    padding-top: 5%;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+
+}
+
+.child {
+ width:20%; 
+ align-items: center;
+border: 1px solid #ddd;
+padding: 1%;
+padding-top: 0%;
+margin: 1%;
+box-shadow:0px 3px 3px 0px #000;
+
+}
+
+.child img {
+
+ padding-top: 0%;
+    width: 50%;
+    text-align: center;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h2{
+    height: 15%;
+    text-align:center;
+    color: #006666;
+    font-size: 32px;
+    font-family: cursive;
+    font-weight: bold;
+}
+p
+{
+color:#006666;
+font-size: 17px;
+text-align:center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+pre{
+  font-size:12px ;
+  text-align: center;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button{
+    background-color: #fff;
+    color: #006666;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+@media only screen and (min-width:120px) and (max-width:490px){
+    .parent {
+        display: flex;
+        margin:2%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    
+    }
+    
+    .child {
+        width:90%;   
+        border: 1px solid #ddd;
+        padding: 2%;
+        margin: 1%;
+        box-shadow:0px 3px 3px 0px #000;
+    
+    } 
+}
+
+@media only screen and (min-width:491px) and (max-width: 900px){
+    .parent {
+        display: flex;
+        margin:2%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+     
+    
+    }
+    
+    .child {
+        width:43%;   
+        border: 1px solid #ddd;
+        padding: 2%;
+        margin: 1%;
+        box-shadow:0px 3px 3px 0px #000;
+    
+    } 
+}
